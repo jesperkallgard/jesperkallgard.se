@@ -131,6 +131,7 @@ ul{
 }
 
 .flex-control-paging{
+
   li a{
     background: #FEE1CA;
     border: none;
@@ -143,10 +144,14 @@ ul{
 }
 
 .flexslider:hover .flex-direction-nav .flex-prev{
+  display: none;
+  @media screen and (min-width: $break-large) {display:block}
   left: 20px;
 }
 
 .flexslider:hover .flex-direction-nav .flex-next{
+  display: none;
+  @media screen and (min-width: $break-large) {display:block}
   right: 20px;
 }
 

@@ -86,10 +86,18 @@ ul.skills li {
     background: #FDBAA4; }
 
 .flexslider:hover .flex-direction-nav .flex-prev {
+  display: none;
   left: 20px; }
+  @media screen and (min-width: 799px) {
+    .flexslider:hover .flex-direction-nav .flex-prev {
+      display: block; } }
 
 .flexslider:hover .flex-direction-nav .flex-next {
+  display: none;
   right: 20px; }
+  @media screen and (min-width: 799px) {
+    .flexslider:hover .flex-direction-nav .flex-next {
+      display: block; } }
 
 .flex-direction-nav a:before {
   color: #FDBAA4;
