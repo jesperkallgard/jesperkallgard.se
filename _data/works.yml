@@ -1,0 +1,169 @@
+- client: Brenderup
+  title: Consumer site
+  url: http://www.brenderup.com
+  image: brenderup.jpg
+  tags:
+    - tag: Responsive
+    - tag: Site core
+  skills:
+    - label: Pre study
+      value: 100
+    - label: Strategy
+      value: 100
+    - label: UX Design
+      value: 100
+    - label: Visual design
+      value: 10
+    - label: Front end
+      value: 30
+    - label: Valdiation
+      value: 90
+  teams:
+    - area: UX & UI
+      company: NY Collectve
+    - area: Back end
+      company: Consid
+- client: Lundhags
+  title: E-commerce
+  url: http://www.lundhags.se
+  image: lundhags.jpg
+  tags:
+    - tag: Responsive
+    - tag: E-commerce
+  skills:
+    - label: Pre study
+      value: 100
+    - label: Strategy
+      value: 100
+    - label: UX Design
+      value: 60
+    - label: Visual design
+      value: 0
+    - label: Front end
+      value: 0
+    - label: Valdiation
+      value: 80
+  teams:
+    - area: UX & UI
+      company: NY Collectve
+    - area: Back end
+      company: Byte, Norway
+- client: Sun off
+  title: E-commerce
+  url: http://www.sunoff.se
+  image: sunoff.jpg
+  tags:
+    - tag: Responsive
+    - tag: Magento
+  skills:
+    - label: Pre study
+      value: 100
+    - label: Strategy
+      value: 100
+    - label: UX Design
+      value: 100
+    - label: Visual design
+      value: 90
+    - label: Front end
+      value: 20
+    - label: Valdiation
+      value: 80
+  teams:
+    - area:
+      company: NY Collective
+- client: Orkla Housecare
+  title: Brand sites
+  url: http://www.anza.se
+  image: orkla.jpg
+  tags:
+    - tag: Content marketing
+    - tag: Pimcore
+  skills:
+    - label: Pre study
+      value: 100
+    - label: Strategy
+      value: 80
+    - label: UX Design
+      value: 100
+    - label: Visual design
+      value: 30
+    - label: Front end
+      value: 60
+    - label: Valdiation
+      value: 100
+  teams:
+    - area: UX & UI
+      company: NY Collectve
+    - area: Back end
+      company: Consid
+- client: Oneway rental
+  title: Booking site
+  url: http://www.onewayrental.se
+  image: oneway.jpg
+  tags:
+    - tag: Responsive
+    - tag: Wordpress
+  skills:
+    - label: Pre study
+      value: 100
+    - label: Strategy
+      value: 100
+    - label: UX Design
+      value: 100
+    - label: Visual design
+      value: 10
+    - label: Front end
+      value: 10
+    - label: Valdiation
+      value: 100
+  teams:
+    - area:
+      company: NY Collective
+- client: Jönköping Södra
+  title: Team site
+  url: http://www.jonkopingssodra.se
+  image: jonkopingsodra.jpg
+  tags:
+    - tag: Responsive
+    - tag: Wordpress
+  skills:
+    - label: Pre study
+      value: 100
+    - label: Strategy
+      value: 100
+    - label: UX Design
+      value: 100
+    - label: Visual design
+      value: 10
+    - label: Front end
+      value: 10
+    - label: Valdiation
+      value: 80
+  teams:
+    - area:
+      company: NY Collective
+- client: Husqvarna Group
+  title: Consumer web sites
+  url: http://www.mcculloch.com
+  image: husqvarna.jpg
+  tags:
+    - tag: McCulloch
+    - tag: Jonsered
+  skills:
+    - label: Pre study
+      value: 70
+    - label: Strategy
+      value: 70
+    - label: UX Design
+      value: 60
+    - label: Visual design
+      value: 30
+    - label: Front end (prototype)
+      value: 70
+    - label: Valdiation
+      value: 50
+  teams:
+    - area: UX & UI
+      company: NY Collective
+    - area: Back end
+      company: Avanade, Stendahls

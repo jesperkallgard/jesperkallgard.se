@@ -1,0 +1,63 @@
+{% include head.html %}
+
+{% include header.html %}
+
+  <div class="block intro">
+    <article>
+      <h1>Hello my name is Jesper & I'm a UX Designer.</h1>
+      <p>I've created digital interfaces for over ten years, with the goal of delivering the best user experience. I work with the entire UX process, from research to prototyping and testing. I think my biggest strength is to understand and balance stakeholders and users needs. See ya!</p>
+
+      <div class="bounce arrow-bounce ">
+        <i class="fa fa-2x fa-chevron-down"></i>
+      </div>
+
+
+    </article>
+  </div>
+  <div class="block flexslider">
+    <div class="work slides wrapper">
+      {% for work in site.data.works %}
+      <article>
+        <figure>
+          <img src="./assets/images/{{ work.image }}"></img>
+          <figcaption>
+            {% for team in work.teams %}
+              {{ team.area }} <strong>{{ team.company }}</strong>.
+            {% endfor %}
+            {% if work.url != null %}
+            <a href="{{ work.url }}">
+              <i class="fa fa-2x fa-external-link"></i>
+            </a>
+            {% endif %}
+          </figcaption>
+        </figure>
+
+        <div class="col">
+          <section>
+            <h1>{{ work.client }} {{ work.title }}</h1>
+            <ul class="tags">
+              {% for tag in work.tags %}
+                <li>{{ tag.tag }}</li>
+              {% endfor %}
+            </ul>
+          </section>
+
+          <section>
+            <h2>My contribution</h2>
+            <ul class="skills">
+              {% for skill in work.skills %}
+                <li>
+                  <span class="label">{{ skill.label }}</span>
+                  <div class="bar p{{ skill.value }}"></div>
+                </li>
+              {% endfor %}
+            </ul>
+          </section>
+        </div>
+
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+
+{% include footer.html %}
